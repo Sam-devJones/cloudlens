@@ -8,16 +8,14 @@ img{
     width: 100%;
 }
 
-.grid{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 20px;
-}
-
 .brand{
     cursor: pointer;
 }
 
 .brand:hover{
     text-decoration: none;
+}
+
+body{
+    background-color: #ffffff;
 }

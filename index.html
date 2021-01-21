@@ -6,6 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <meta name="Description" content="Enter your description here"/>
 <link rel="icon" href="images/logo.jpg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/regular.min.css" integrity="sha512-1yhsV5mlXC9Ve9GDpVWlM/tpG2JdCTMQGNJHvV5TEzAJycWtHfH0/HHSDzHFhFgqtFsm1yWyyHqssFERrYlenA==" crossorigin="anonymous" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 <link rel="stylesheet" href="assets/css/style.css">
@@ -25,16 +26,16 @@
                     
                     <ul class="navbar-nav nav-pill" id="navi">
                         <li class="nav-item text-center">
-                            <a href="#" class="nav-link text-warning ml-2">About</a>
+                            <a href="#about" class="nav-link text-warning ml-2">About</a>
                         </li>
                         <li class="nav-item text-center">
-                            <a href="#" class="nav-link text-warning ml-2">Technology</a>
+                            <a href="#tech" class="nav-link text-warning ml-2">Technology</a>
                         </li>
                         <li class="nav-item text-center">
-                            <a href="#" class="nav-link text-warning ml-2">Pros&Cons</a>
+                            <a href="#prc" class="nav-link text-warning ml-2">Pros&Cons</a>
                         </li>
                         <li class="nav-item text-center">
-                            <a href="#" class="nav-link text-warning ml-2">Future</a>
+                            <a href="#future" class="nav-link text-warning ml-2">Future</a>
                         </li>
 
                     </ul>
@@ -43,19 +44,121 @@
         </div>
     </section>
 
-    <section class="desc container py-4">
+    <section class="container py-4 rounded" id="about">
         <div class="card p-2">
             <h2 class="text-center py-3">What is CloudLens?</h2>
-            <div class="about container-fluid mx-auto grid">
-                <div class="lead pr-3">
+            <div class="row mx-auto">
+                <div class="lead col-md-6 col-sm-12 pr-3">
                     <ul>
-                        <li></li>
+                        <li>The Future of <h4>Smart Glasses</h4>.</li>
+                        <li>Smart Glass that integrates both <b>Augmented Reality(AR)</b> and <b>Edge Computing</b>.</li><br>
+                        <li>Created for <i>Designers</i> and <i>Manufacturers</i></li>
                     </ul>
                 </div>
-                <img src="images/cloudlens.jpg" alt="CloudLens - Future Of Smart Glasses">
+                <div class="col-md-6 col-sm-12">
+                    <img src="images/cloudlens.jpg" alt="CloudLens - Future Of Smart Glasses">
+                </div>
             </div>            
         </div>
     </section>
+
+    <section class="container py-2 rounded" id="tech">
+        <div class="card">
+            <h2 class="text-center py-3">Technologies Used:</h2>
+            <div class="row mx-auto">
+                <div class="col-md-6 col-sm-12">
+                    <img src="images/server.jpeg" alt="Server for Cloudlens">
+                    <hr>
+                    <p>A High powered Processor and Graphical Processing Unit capable of Handling Demanding 4k Rendering and Augmented Reality.</p>
+                    <p>Components like <b>Intel Xeon processor</b> and <b>AMD Radeon graphics.</b></p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <img src="images/ar-glass.jpg" alt="AR Glasses">
+                    <hr>
+                    <p>Regular <b>Prescription glasses</b> with a <i>Simple CPU</i> mounted on the rim capable of  data transmission and a <b>Network Adaptor</b> to access Internet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-2 rounded" id="prc">
+        <div class="card">
+            <h3 class="text-center py-2">Every Product has its <i>Pros & Cons</i></h3>
+            <img src="images/prc.jpg" alt="" height="300px">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <ul style="list-style-type: none;">
+                        <h4>Pros <hr></h4>
+                        <li class="h5"><i class="fa fa-check fa-2x"></i> No Wired Connections required.</li>
+                        <li class="h5"><i class="fa fa-check fa-2x"></i> Transparent lens and advanced sensors helps Designers and Manufactures perfect their product easily.</li>
+                        <li class="h5"><i class="fa fa-check fa-2x"></i> Light weight ,easily portable.</li>
+                        <li class="h5"><i class="fa fa-check fa-2x"></i> AR made useful and engaging world experiences.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <ul style="list-style-type: none;">
+                        <h4>Cons <hr></h4>
+                        <li class="h5"><i class="fa fa-times fa-2x"></i> Stable Internet Connection is always required.</li>
+                        <li class="h5"><i class="fa fa-times fa-2x"></i> Currently suitable for Industries and NOT COMMERCIAL USE.</li>
+                        <li class="h5"><i class="fa fa-times fa-2x"></i> Might make User vulnerable to Eye Strains and Headaches.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container py-2 rounded" id="future">
+        <div class="card">
+            <h3 class="text-center py-2">
+                What the <b>Future</b> holds for us:
+            </h3>
+            <div class="row container">
+                <div class="col-sm-12 col-md-4">
+                    <div class="card">
+                        <div class="card-title">
+                            <h3 class="text-center py-2">Military Contracts</h3>
+                        </div>
+                        <div class="card-img-top">
+                            <img src="images/ar-military.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card">
+                        <div class="card-title">
+                            <h3 class="text-center">Business Uses</h3>
+                        </div>
+                        <div class="card-img-top">
+                            <img src="images/ar-business.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="card">
+                        <div class="card-title">
+                            <h3 class="text-center">Civilian Uses</h3>
+                        </div>
+                        <div class="card-img-top">
+                            <img src="images/ar-civilian.jfif" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid bg-dark text-white mt-3">
+        <h3>Idea By:</h3>
+        <div class="row mx-auto">
+            <div class="col-md-3 col-sm-6"><h4>Vijay Kumar</h4></div>
+            <div class="col-md-3 col-sm-6"><h4>Vimal</h4></div>
+            <div class="col-md-3 col-sm-6"><h4>Vishnu</h4></div>
+            <div class="col-md-3 col-sm-6"><h4>Thilak</h4></div>
+            <div class="col-md-3 col-sm-6"><h4>Sai Charan</h4></div>
+            <div class="col-md-3 col-sm-6"><h4>Vedha Prakash</h4></div>
+            <div class="col-md-3 col-sm-6"><h4>Vinu Prasath</h4></div>
+        </div>
+    </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
